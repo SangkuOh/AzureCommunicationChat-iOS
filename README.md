@@ -1,5 +1,8 @@
 # AzureCommunicationChat-iOS
 I made a simple app use AzureCommunicationChat SDK
+
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/60543724/126027839-c5632d6d-7b4d-4ee5-a3ff-1b147c3e8312.gif)
+
 ## 🚨 Notice
 ```
 If you want test this app,
