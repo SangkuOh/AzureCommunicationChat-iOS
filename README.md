@@ -102,7 +102,7 @@ func getChatList(completionHandler: @escaping (Bool) -> Void) {
 - ChartThreadClient are needed to control the inside of the thread.
 - It also recommended to store it out of the closure because it is likely to be used several times.
 ## Required
--ThreadId
+- ThreadId
 ```
 func getThreadClient(threadId: String, completionHandler: @escaping (Bool) -> Void) {
         guard let chatThreadClient = try? self.chatClient?.createClient(forThread: threadId) else { return }
