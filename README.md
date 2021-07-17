@@ -2,8 +2,8 @@
 I made a simple app use AzureCommunicationChat SDK
 ## 🚨 Notice
 ```
-if you want test this app,
-you have to input your own source at AppSettings.plist
+If you want test this app,
+You have to input your own source at AppSettings.plist
 "communcationTokenFetchUrl", "tokenEndpoint"
 ```
 # Getting started
