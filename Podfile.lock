@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (5.4.3)
+  - AlamofireNetworkActivityLogger (3.4.0):
+    - Alamofire (~> 5.4.0)
+  - AzureCommunicationChat (1.0.0-beta.12):
+    - AzureCommunicationCommon (~> 1.0)
+    - AzureCore (= 1.0.0-beta.12)
+    - TrouterClientIos (= 0.0.1-beta.4)
+  - AzureCommunicationCommon (1.0.1)
+  - AzureCore (1.0.0-beta.12)
+  - Kingfisher/Core (5.15.8)
+  - Kingfisher/SwiftUI (5.15.8):
+    - Kingfisher/Core
+  - TrouterClientIos (0.0.1-beta.4)
+
+DEPENDENCIES:
+  - AlamofireNetworkActivityLogger (~> 3.4)
+  - AzureCommunicationChat (= 1.0.0-beta.12)
+  - Kingfisher/SwiftUI (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireNetworkActivityLogger
+    - AzureCommunicationChat
+    - AzureCommunicationCommon
+    - AzureCore
+    - Kingfisher
+    - TrouterClientIos
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  AlamofireNetworkActivityLogger: 162ab8aee00e6267a4304d7cc134e13ccfe3bcc5
+  AzureCommunicationChat: c8ad7b7285fb6a6ee8c76f82275980deca20f22f
+  AzureCommunicationCommon: e8bef28d6924b25a32655c2d2089ae8000dcfa57
+  AzureCore: 2e029168d18ade4f2e8cc59a96f6d8b26acad2b2
+  Kingfisher: a3c03d702433fa6cfedabb2bddbe076fb8f2e902
+  TrouterClientIos: d1833fb5ec22780ae6957fbded54bfb578f4359d
+
+PODFILE CHECKSUM: 0980ee6790cb39d71d20980418ee2ed9aebd30c3
+
+COCOAPODS: 1.10.1

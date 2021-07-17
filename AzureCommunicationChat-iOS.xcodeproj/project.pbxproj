@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09CCCBAC496DBF097C666730 /* Pods_AzureCommunicationChat_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A79EE9BF9EDD462570BBD76D /* Pods_AzureCommunicationChat_iOS.framework */; };
+		AD63C71C269D470D00835431 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD63C71B269D470D00835431 /* ImagePicker.swift */; };
+		AD6B8A70269D7C8D00311EDF /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AD6B8A6F269D7C8D00311EDF /* Alamofire */; };
+		AD7F4B85269554A400DB2315 /* AzureCommuncationChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F4B84269554A400DB2315 /* AzureCommuncationChat.swift */; };
+		AD7F4B87269554A400DB2315 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7F4B86269554A400DB2315 /* ContentView.swift */; };
+		AD7F4B89269554A600DB2315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7F4B88269554A600DB2315 /* Assets.xcassets */; };
+		AD7F4B8C269554A600DB2315 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7F4B8B269554A600DB2315 /* Preview Assets.xcassets */; };
+		AD82AC46269C06B500B7AABD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD82AC45269C06B500B7AABD /* User.swift */; };
+		AD82AC4E269C079800B7AABD /* ChatLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD82AC4D269C079800B7AABD /* ChatLogger.swift */; };
+		AD91A3D4269ED08500FA64D8 /* AlamofireNetworkActivityIndicator in Frameworks */ = {isa = PBXBuildFile; productRef = AD91A3D3269ED08500FA64D8 /* AlamofireNetworkActivityIndicator */; };
+		ADB6E6A12696D68C00985B7C /* ChatRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB6E6A02696D68C00985B7C /* ChatRoomView.swift */; };
+		ADB6E6A32696DDF300985B7C /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB6E6A22696DDF300985B7C /* ChatListView.swift */; };
+		ADB6E6A52696E16700985B7C /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB6E6A42696E16700985B7C /* ChatViewModel.swift */; };
+		ADCB57FF269D6C0000F71982 /* MediaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCB57FE269D6C0000F71982 /* MediaViewModel.swift */; };
+		ADCC1FEE2696BE1A00AB311A /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCC1FED2696BE1A00AB311A /* AppSettings.swift */; };
+		ADCC1FF02696BE3400AB311A /* TokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCC1FEF2696BE3400AB311A /* TokenService.swift */; };
+		ADCC1FF22696BE6F00AB311A /* AppSettings.plist in Resources */ = {isa = PBXBuildFile; fileRef = ADCC1FF12696BE6F00AB311A /* AppSettings.plist */; };
+		ADE96C5526985CD60010299A /* CommunicationIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE96C5426985CD60010299A /* CommunicationIdentifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		36DDE1C7962C5EFCA7058822 /* Pods-AzureTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureTest.release.xcconfig"; path = "Target Support Files/Pods-AzureTest/Pods-AzureTest.release.xcconfig"; sourceTree = "<group>"; };
+		3EE6F304DDB3D041EE3188CE /* Pods-AzureTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureTest.debug.xcconfig"; path = "Target Support Files/Pods-AzureTest/Pods-AzureTest.debug.xcconfig"; sourceTree = "<group>"; };
+		A77C8B67B6637E92F179230F /* Pods-AzureCommunicationChat-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureCommunicationChat-iOS.debug.xcconfig"; path = "Target Support Files/Pods-AzureCommunicationChat-iOS/Pods-AzureCommunicationChat-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A79EE9BF9EDD462570BBD76D /* Pods_AzureCommunicationChat_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureCommunicationChat_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD63C71B269D470D00835431 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		AD7F4B81269554A400DB2315 /* AzureCommunicationChat-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AzureCommunicationChat-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7F4B84269554A400DB2315 /* AzureCommuncationChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzureCommuncationChat.swift; sourceTree = "<group>"; };
+		AD7F4B86269554A400DB2315 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD7F4B88269554A600DB2315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD7F4B8B269554A600DB2315 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD7F4B8D269554A600DB2315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD82AC45269C06B500B7AABD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AD82AC4D269C079800B7AABD /* ChatLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatLogger.swift; sourceTree = "<group>"; };
+		ADB6E6A02696D68C00985B7C /* ChatRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomView.swift; sourceTree = "<group>"; };
+		ADB6E6A22696DDF300985B7C /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		ADB6E6A42696E16700985B7C /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		ADCB57FE269D6C0000F71982 /* MediaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaViewModel.swift; sourceTree = "<group>"; };
+		ADCC1FED2696BE1A00AB311A /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		ADCC1FEF2696BE3400AB311A /* TokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenService.swift; sourceTree = "<group>"; };
+		ADCC1FF12696BE6F00AB311A /* AppSettings.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppSettings.plist; sourceTree = "<group>"; };
+		ADE96C5426985CD60010299A /* CommunicationIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationIdentifier.swift; sourceTree = "<group>"; };
+		C7C596D25AB6FB9A0577C1F1 /* Pods-AzureCommunicationChat-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureCommunicationChat-iOS.release.xcconfig"; path = "Target Support Files/Pods-AzureCommunicationChat-iOS/Pods-AzureCommunicationChat-iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD7F4B7E269554A400DB2315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD91A3D4269ED08500FA64D8 /* AlamofireNetworkActivityIndicator in Frameworks */,
+				AD6B8A70269D7C8D00311EDF /* Alamofire in Frameworks */,
+				09CCCBAC496DBF097C666730 /* Pods_AzureCommunicationChat_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85BF95DD254F44392BE8371B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A79EE9BF9EDD462570BBD76D /* Pods_AzureCommunicationChat_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4B2B7CC8D1E2CA326CF5696 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EE6F304DDB3D041EE3188CE /* Pods-AzureTest.debug.xcconfig */,
+				36DDE1C7962C5EFCA7058822 /* Pods-AzureTest.release.xcconfig */,
+				A77C8B67B6637E92F179230F /* Pods-AzureCommunicationChat-iOS.debug.xcconfig */,
+				C7C596D25AB6FB9A0577C1F1 /* Pods-AzureCommunicationChat-iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD7F4B78269554A400DB2315 = {
+			isa = PBXGroup;
+			children = (
+				AD7F4B83269554A400DB2315 /* AzureCommunicationChat-iOS */,
+				AD7F4B82269554A400DB2315 /* Products */,
+				85BF95DD254F44392BE8371B /* Frameworks */,
+				A4B2B7CC8D1E2CA326CF5696 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		AD7F4B82269554A400DB2315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD7F4B81269554A400DB2315 /* AzureCommunicationChat-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD7F4B83269554A400DB2315 /* AzureCommunicationChat-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD82AC4A269C06F600B7AABD /* View */,
+				AD82AC47269C06D600B7AABD /* ViewModel */,
+				AD82AC44269C069700B7AABD /* Model */,
+				AD7F4B84269554A400DB2315 /* AzureCommuncationChat.swift */,
+				AD7F4B88269554A600DB2315 /* Assets.xcassets */,
+				AD7F4B8D269554A600DB2315 /* Info.plist */,
+				AD7F4B8A269554A600DB2315 /* Preview Content */,
+				ADCC1FF12696BE6F00AB311A /* AppSettings.plist */,
+				ADE96C5426985CD60010299A /* CommunicationIdentifier.swift */,
+				AD82AC4D269C079800B7AABD /* ChatLogger.swift */,
+			);
+			path = "AzureCommunicationChat-iOS";
+			sourceTree = "<group>";
+		};
+		AD7F4B8A269554A600DB2315 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD7F4B8B269554A600DB2315 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD82AC44269C069700B7AABD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD82AC45269C06B500B7AABD /* User.swift */,
+				ADCB57FE269D6C0000F71982 /* MediaViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD82AC47269C06D600B7AABD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ADCC1FEF2696BE3400AB311A /* TokenService.swift */,
+				ADB6E6A42696E16700985B7C /* ChatViewModel.swift */,
+				ADCC1FED2696BE1A00AB311A /* AppSettings.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AD82AC4A269C06F600B7AABD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AD7F4B86269554A400DB2315 /* ContentView.swift */,
+				ADB6E6A22696DDF300985B7C /* ChatListView.swift */,
+				ADB6E6A02696D68C00985B7C /* ChatRoomView.swift */,
+				AD63C71B269D470D00835431 /* ImagePicker.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD7F4B80269554A400DB2315 /* AzureCommunicationChat-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD7F4B90269554A600DB2315 /* Build configuration list for PBXNativeTarget "AzureCommunicationChat-iOS" */;
+			buildPhases = (
+				FA476AC9877C64A31412ED7E /* [CP] Check Pods Manifest.lock */,
+				AD7F4B7D269554A400DB2315 /* Sources */,
+				AD7F4B7E269554A400DB2315 /* Frameworks */,
+				AD7F4B7F269554A400DB2315 /* Resources */,
+				53EC190DA201720B5598FC5A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AzureCommunicationChat-iOS";
+			packageProductDependencies = (
+				AD6B8A6F269D7C8D00311EDF /* Alamofire */,
+				AD91A3D3269ED08500FA64D8 /* AlamofireNetworkActivityIndicator */,
+			);
+			productName = AzureTest;
+			productReference = AD7F4B81269554A400DB2315 /* AzureCommunicationChat-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD7F4B79269554A400DB2315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					AD7F4B80269554A400DB2315 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = AD7F4B7C269554A400DB2315 /* Build configuration list for PBXProject "AzureCommunicationChat-iOS" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD7F4B78269554A400DB2315;
+			packageReferences = (
+				AD6B8A6E269D7C8D00311EDF /* XCRemoteSwiftPackageReference "Alamofire" */,
+				AD91A3D2269ED08500FA64D8 /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityIndicator" */,
+			);
+			productRefGroup = AD7F4B82269554A400DB2315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD7F4B80269554A400DB2315 /* AzureCommunicationChat-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD7F4B7F269554A400DB2315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD7F4B8C269554A600DB2315 /* Preview Assets.xcassets in Resources */,
+				AD7F4B89269554A600DB2315 /* Assets.xcassets in Resources */,
+				ADCC1FF22696BE6F00AB311A /* AppSettings.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53EC190DA201720B5598FC5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AzureCommunicationChat-iOS/Pods-AzureCommunicationChat-iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AzureCommunicationChat-iOS/Pods-AzureCommunicationChat-iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AzureCommunicationChat-iOS/Pods-AzureCommunicationChat-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA476AC9877C64A31412ED7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AzureCommunicationChat-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD7F4B7D269554A400DB2315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD63C71C269D470D00835431 /* ImagePicker.swift in Sources */,
+				AD82AC4E269C079800B7AABD /* ChatLogger.swift in Sources */,
+				ADCB57FF269D6C0000F71982 /* MediaViewModel.swift in Sources */,
+				AD7F4B87269554A400DB2315 /* ContentView.swift in Sources */,
+				ADE96C5526985CD60010299A /* CommunicationIdentifier.swift in Sources */,
+				ADB6E6A52696E16700985B7C /* ChatViewModel.swift in Sources */,
+				AD7F4B85269554A400DB2315 /* AzureCommuncationChat.swift in Sources */,
+				ADB6E6A12696D68C00985B7C /* ChatRoomView.swift in Sources */,
+				AD82AC46269C06B500B7AABD /* User.swift in Sources */,
+				ADCC1FEE2696BE1A00AB311A /* AppSettings.swift in Sources */,
+				ADB6E6A32696DDF300985B7C /* ChatListView.swift in Sources */,
+				ADCC1FF02696BE3400AB311A /* TokenService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD7F4B8E269554A600DB2315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD7F4B8F269554A600DB2315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD7F4B91269554A600DB2315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A77C8B67B6637E92F179230F /* Pods-AzureCommunicationChat-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = AJ3QP83J5Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/AzureCommunicationChat-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.AzureCommuncationChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD7F4B92269554A600DB2315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7C596D25AB6FB9A0577C1F1 /* Pods-AzureCommunicationChat-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 4Y43THZ66M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/AzureCommunicationChat-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = iOS.AzureCommuncationChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD7F4B7C269554A400DB2315 /* Build configuration list for PBXProject "AzureCommunicationChat-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7F4B8E269554A600DB2315 /* Debug */,
+				AD7F4B8F269554A600DB2315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD7F4B90269554A600DB2315 /* Build configuration list for PBXNativeTarget "AzureCommunicationChat-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD7F4B91269554A600DB2315 /* Debug */,
+				AD7F4B92269554A600DB2315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD6B8A6E269D7C8D00311EDF /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+		AD91A3D2269ED08500FA64D8 /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityIndicator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireNetworkActivityIndicator";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD6B8A6F269D7C8D00311EDF /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD6B8A6E269D7C8D00311EDF /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		AD91A3D3269ED08500FA64D8 /* AlamofireNetworkActivityIndicator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD91A3D2269ED08500FA64D8 /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityIndicator" */;
+			productName = AlamofireNetworkActivityIndicator;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = AD7F4B79269554A400DB2315 /* Project object */;
+}

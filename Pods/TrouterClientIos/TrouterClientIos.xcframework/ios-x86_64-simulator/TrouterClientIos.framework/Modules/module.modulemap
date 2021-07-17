@@ -1,0 +1,6 @@
+framework module TrouterClientIos {
+  umbrella header "SelfHostedTrouterClient.h"
+
+  export *
+  module * { export * }
+}

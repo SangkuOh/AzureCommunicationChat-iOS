@@ -1,0 +1,6 @@
+framework module Pods_AzureCommunicationChat_iOS {
+  umbrella header "Pods-AzureCommunicationChat-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
