@@ -20,7 +20,7 @@ class TokenService: ObservableObject {
     }
 
     func getCommunicationToken(completionHandler: @escaping (TokenResponse, Error?) -> Void) {
-        let url = URL(string: communicationTokenFetchUrl)!
+        guard let url = URL(string: communicationTokenFetchUrl) else { return }
         var urlRequest = URLRequest(url: url, cachePolicy: .useProtocolCachePolicy, timeoutInterval: 10)
         urlRequest.httpMethod = "GET"
 

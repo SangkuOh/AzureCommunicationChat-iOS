@@ -61,7 +61,7 @@ class ChatViewModel: ObservableObject {
                         chatClient.register(event: ChatEventId.participantsAdded, handler: self.handler)
                         chatClient.register(event: ChatEventId.typingIndicatorReceived, handler: self.handler)
                     case .failure:
-                        print("에러발생")
+                        print("Error!")
                 }
             }
             
@@ -160,7 +160,7 @@ class ChatViewModel: ObservableObject {
                         completionHandler(true)
                     case .failure:
                         completionHandler(false)
-                        print("통신실패")
+                        print("Error")
                 }
             }
             
@@ -367,7 +367,7 @@ class ChatViewModel: ObservableObject {
                             completionHandler(true)
                         }
                     case .failure:
-                        print("통신실패")
+                        print("Error")
                         completionHandler(false)
                 }
             }
@@ -377,7 +377,7 @@ class ChatViewModel: ObservableObject {
     
     // Send Iamge file to DB
     func uploadPhoto(fileUrl: URL, completionHandler: @escaping (MediaViewModel) -> Void) {
-        let imageApi = "https://api-int.icloudhospital.com/api/v1/images"
+        let imageApi = "API for data to string or html"
         let parameters: [String: Any] = ["file": fileUrl]
         
         AF.upload(multipartFormData: { mpForm in
@@ -392,7 +392,7 @@ class ChatViewModel: ObservableObject {
             
         }, to: imageApi, headers: [
             "Content-Type": "multipart/form-data",
-            "Authorization" : "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IldWZk9BUS1kMGZ3bkhXdUtBMUpMU2ciLCJ0eXAiOiJhdCtqd3QifQ.eyJuYmYiOjE2MjY0OTQ0ODYsImV4cCI6MTYyNjQ5ODA4NiwiaXNzIjoiaHR0cHM6Ly9pZGVudGl0eS1pbnQuaWNsb3VkaG9zcGl0YWwuY29tIiwiYXVkIjpbIkNsb3VkSG9zcGl0YWxfYXBpIiwiQ2xvdWRIb3NwaXRhbF9jaGF0X2FwaSIsIkNsb3VkSG9zcGl0YWxfcGF5bWVudF9hcGkiLCJJZGVudGl0eVNlcnZlckFwaSJdLCJjbGllbnRfaWQiOiJDbG91ZEhvc3BpdGFsX1NQQSIsInN1YiI6Ijc4MjBjMjA4LTRhZmMtNDEzNC04NzdjLWRhNDg2NzkxNjQzZCIsImF1dGhfdGltZSI6MTYyNjE3MjMzNywiaWRwIjoiR29vZ2xlIiwicm9sZSI6IlVzZXIiLCJuYW1lIjoic2FuZ2t1ODI0QGdtYWlsLmNvbSIsImVtYWlsIjoic2FuZ2t1ODI0QGdtYWlsLmNvbSIsInNjb3BlIjpbImVtYWlsIiwib3BlbmlkIiwicHJvZmlsZSIsInJvbGVzIiwiQ2xvdWRIb3NwaXRhbF9hcGkiLCJDbG91ZEhvc3BpdGFsX2NoYXRfYXBpIiwiQ2xvdWRIb3NwaXRhbF9wYXltZW50X2FwaSIsIklkZW50aXR5U2VydmVyQXBpIiwib2ZmbGluZV9hY2Nlc3MiXSwiYW1yIjpbIkdvb2dsZSJdfQ.Z309jx5eeJOjoHtT_SCKpDKsL_XysnjOnSzqLIUCCE2WjzcdHza_Ez7fvTurC6eV9c7eHl-lGjnuCpPnFao09TNsDAtfOj2RBhbLcxVwDDbYOJSBXC1zpBC7M6U5qyZ_dD0Rb96dxYWMwr1phPPAo9N5vIXRC9OEmT40E0v2O60z298r9NDUhDtaLTXChb3k2zIMMAEpSQAFM-LHTUIoMEwGES9yyNzPSjNUkRi_FUYnS4PkDovAQFehBqBFeCC6Sh7gFj_ZEh6YH53OE_5WEh_rFSarXPiMkHHr5YDFUScmSlQ_fcaeD4-023yJ6GMbDui48hWQ-_lRKsYbE968Zg" ])
+            "Authorization" : "Bearer <accessToken>" ])
         .response(completionHandler: { response in
             
             switch response.result {
