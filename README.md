@@ -26,8 +26,7 @@ end.
 - It is recommended to store it out of the closure because it is likely to be used several times.
 - In my case, I registered the event immediately after the instance was created.
 
-## Initialization
-### Required
+## Required
 - CommunicationServices resource endpoint
 - User Access Token
 ```
@@ -114,7 +113,7 @@ func getThreadClient(threadId: String, completionHandler: @escaping (Bool) -> Vo
 # ChatThreadClient Operations
 
 #Add Thread Participants
-#Required
+## Required
 - Participants's userId
 - Participants's displayName
 ```
